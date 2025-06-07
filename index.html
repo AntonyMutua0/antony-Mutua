@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevNest | D.E.N</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="menu">
+                    <ul class="nav-links">
+                        <li><a href="#hero">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICE</a></li>
+                        <li class="logo-item">
+                            <div class="icon">
+                                <h2 class="logo">DevNest</h2>
+                            </div>
+                        </li>
+                        <li><a href="#developers">PROGRAMMERS</a></li>
+                        <li><a href="#history">HISTORY</a></li> 
+                        <li><a href="#contact">CONTACT</a></li>    
+                    </ul>
+                </div>
+        
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>High End Developers<br><span>With Just A Click!!</span></h1>
+                        <p>Top Tier Certified and Approved Developers, to create a function from a vision, a style from a fantasy and a structure from a dream.</p>
+                        <button class="btn">Get Started</button>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <div class="info-wrapper">
+            <section class="info">
+                <div class="info-text">
+                    <h4>START YOUR PROJECT</h4>
+                    <h2>Talk to a Real Developer First</h2>
+                    <p class="p1">Share your idea with a friendly frontend developer and get expert input.</p>
+                    <button class="btn">Press Me</button>
+                </div>
+            </section>
+        
+            <section class="info">
+                <div class="info-text">
+                    <h4>Get Recruited</h4>
+                    <h2>JOIN THE HUB & GET VERIFIED</h2>
+                    <p class="p1">Get matched with real clients based on your skills and availability</p>
+                    <button class="btn">Level Up</button>
+                </div>
+            </section>
+        </div> 
+
+        <div class="info-wrapper">
+            <section class="info">
+                <div class="info-text">
+                    <h4>Booking</h4>
+                    <h2>Book A Pro Consultant</h2>
+                    <p class="p1">Schedule a paid session with an experienced developer to scope your idea and tech requirements.</p>
+                    <button class="btn">Book Now</button>
+                </div>
+            </section>
+
+            <section class="info2">
+                <div class="info2-img3">
+                    <img src="images/web-design.png" alt="Web Design" />
+                </div>
+            </section>
+        </div>
+
+        <div id="services" class="services">
+            <div class="services-txt">
+                <h2>SERVICES</h2>
+                <p>On Time, Within Budget, And Beyond Expectation</p>
+            </div>
+        </div>
+
+        <div class="info-wrapper">
+            <section class="info">
+                <div class="info-text">
+                    <h4>Live Chat</h4>
+                    <h2>What's Best For Your Project Idea</h2>
+                    <p class="p1">Your idea deserves to be heard by someone who can actually build it. This first chat is casual, no pressure, and focused entirely on your idea. Whether you're building a mobile app, website, dashboard, or marketplace, our devs are here to listen, ask the right questions, and give honest feedback.</p>
+                    <button class="btn">Press Me</button>
+                </div>
+            </section>
+        
+            <section class="info">
+                <div class="info-text">
+                    <h4>Hand-Off</h4>
+                    <h2>Your Matched Developer</h2>
+                    <div class="p1">
+                        <ul class="feature-list">
+                            <li>✅ <strong>Budget Matching:</strong> We only match you with developers who work within your price range.</li>
+                            <li>✅ <strong>Project Scope:</strong> Based on the consultation, we assign a developer whose skills match your technical needs.</li>
+                            <li>✅ <strong>Tech Stack Preferences:</strong> Want your app built with React, Vue, Django, or Laravel? We match accordingly.</li>
+                            <li>✅ <strong>Availability:</strong> Only developers who are ready to start now are considered.</li>
+                        </ul>
+                    </div>
+                    <button class="btn">Check Activity</button>
+                </div>
+            </section>
+        </div>
+
+        <section class="hero3">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero3-text">
+                        <h1>Your Project<br><span>Your Dashboard</span></h1>
+                        <p>Stay in control at every step. Track milestones, chat with your developer, view invoices, share files, and request changes—all in one place designed to keep your project moving forward smoothly.</p>
+                        <button class="btn">Get Started</button>
+                    </div>
+                    <div class="hero3-img2">
+                        <img src="images/feebg.png" alt="Dashboard" />
+                    </div>
+                </div>
+            </div> 
+        </section>
+          
+        <section class="testimonials-section">
+            <div class="testimonial-left">
+                <span class="testimonial-label">Testimonials</span>
+                <h2>What our clients say</h2>
+                <p>Real stories from people who found the perfect developer match through DevNest.</p>
+            
+                <div class="testimonial-buttons">
+                    <button class="btn-prev" id="prevBtn">‹</button>
+                    <button class="btn-next" id="nextBtn">›</button>
+                </div>
+                
+                <div class="testimonial-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span>
+                </div>
+            </div>
+            
+            <div class="testimonial-carousel">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>"DevNest made it so easy to find the right developer for my e-commerce project. The matching process was seamless, and my developer delivered exactly what I envisioned. Highly recommend!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">AR</div>
+                                <div class="author-info">
+                                    <h4>Anna Rodriguez</h4>
+                                    <span>E-commerce Entrepreneur</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>"I was struggling with my mobile app idea for months. DevNest connected me with an amazing React Native developer who brought my vision to life. The project dashboard kept everything organized!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">MS</div>
+                                <div class="author-info">
+                                    <h4>Mark Stevens</h4>
+                                    <span>Startup Founder</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>"As a developer, joining DevNest was the best career decision I made. The verification process was thorough, and now I work on exciting projects with amazing clients. The community is incredibly supportive!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">PT</div>
+                                <div class="author-info">
+                                    <h4>Priya Patel</h4>
+                                    <span>Full-Stack Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>"The consultation call was incredibly valuable. My developer understood my requirements perfectly and suggested improvements I hadn't considered. The final product exceeded all expectations!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">JL</div>
+                                <div class="author-info">
+                                    <h4>James Liu</h4>
+                                    <span>Tech Entrepreneur</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+        <section class="hero4">
+            <div class="partners-container">
+                <span class="partners-label">Our Partners</span>
+                <div class="partners-logos">
+                    <span class="partner">CipherRoot</span>
+                    <span class="partner">StormCluster</span>
+                    <span class="partner">SyntaxIQ</span>
+                    <span class="partner">PixelLambda</span>
+                    <span class="partner">CodeCred</span>
+                </div>
+            </div>
+        </section>
+
+        <div id="developers" class="developers">
+            <div class="developers-text">
+                <h4>DEVELOPERS HUB</h4>
+                <h2>Join the Hub & Get Verified.</h2>
+            </div>
+        </div>
+
+        <div class="info3-wrapper">
+            <section class="info3">
+                <div class="info3-text">
+                    <h4>Developer Onboarding</h4>
+                    <h2>Apply Now, Build With Us</h2>
+                    <p>Join a growing global developer community. Whether you're frontend, backend, or full-stack we want your talent. Apply, get verified, and collaborate on real projects.</p>
+                    <button class="btn">Join</button>
+                </div>
+            </section>
+
+            <section class="info3">
+                <div class="info3-text">
+                    <h4>Verification Steps</h4>
+                    <h2>How to Get Verified</h2>
+                    <p>Fill out the application form with your skills, experience, and portfolio links. Complete a short technical test or submit a sample project.</p>
+                    <button class="btn">Verify</button>
+                </div>
+            </section>
+
+            <section class="info3">
+                <div class="info3-text">
+                    <h4>Advance Your Role</h4>
+                    <h2>Level Up</h2>
+                    <p>Build your reputation by contributing to real projects, mentoring other developers, or leading teams. Get approved by our dev team and start accepting clients or joining hub discussions. Progress through our merit-based system.</p>
+                    <button class="btn">Level Up</button>
+                </div>
+            </section>
+        </div>
+
+        <section class="hero3">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero3-text">
+                        <h4>BUBBLECOMM</h4>
+                        <h1>Welcome to the DevNest Community</h1>
+                        <p>This is where clients and developers connect beyond projects. Ask questions, share experiences, showcase builds, and get support from a friendly and professional network.</p>
+                        <button class="btn">Get Started</button>
+                    </div>
+                    <div class="hero3-img2">
+                        <img src="images/african.png" alt="Community" />
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="hero5">
+            <div class="container2">
+                <div class="hero5-wrapper">
+                    <div class="hero5-left">
+                        <h4>Need Help?</h4>
+                        <h1>Frequently Asked Questions</h1>
+                        <p>Find answers to common questions about our services, how developers and clients connect, and how to get the most out of our platform.</p>
+                        <div class="hero5-image">
+                            <img src="images/illustrated-woman-working-customer-support.png" alt="FAQ Illustration" />
+                        </div>
+                    </div>
+            
+                    <div class="hero5-right">
+                        <ul class="faq-list">
+                            <li class="faq-item">
+                                <div class="faq-question">
+                                    <span class="faq-text">How much does the consultation cost?</span>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-question">
+                                    <span class="faq-text">Can I choose my developer?</span>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-question">
+                                    <span class="faq-text">How does the developer hub work?</span>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-question">
+                                    <span class="faq-text">Do I need a subscription to access services?</span>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-question">
+                                    <span class="faq-text">What if I'm not satisfied with the work?</span>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="developers">
+            <div class="developers-text">
+                <h2>📞GET IN TOUCH</h2>
+                <p>We're here to help! Whether you're a customer looking to get started or a developer wanting to join our hub, just reach out.</p>
+            </div>
+        </div>
+
+        <section id="contact" class="contact-section">
+            <h4 class="contact-title">Let's Build Something Together</h4>
+            <div class="contact-header">
+                <h1 class="contact-subtitle">CONTACT DETAILS</h1>
+                <h1 class="contact-subtitle2">Start a Conversation</h1>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Email us directly: <a href="mailto:support@devnest.com">support@devnest.com</a></p>
+                    <p>Call us: +123 456 7890 (Mon–Fri, 9am–6pm)</p>
+                    <p class="social-title">Follow us on social media:</p>
+                    <ul class="social-ul">
+                        <li>Twitter: <a href="#"> @DEVNEST</a></li>
+                        <li>LinkedIn: <a href="#"> DEVNEST</a></li>
+                        <li>GitHub: <a href="#"> github.com/developersnest</a></li>
+                    </ul>
+                </div>
+
+                <div class="forms">
+                    <form class="contact-form">
+                        <div>
+                            <label for="name">Your Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div>
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" required rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="send-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <p class="contact-footer">Our Response Gets Back After 12-14 Hours</p>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3 class="footer-title">DevNest</h3>
+                        <p class="footer-description">
+                            Connecting visionary clients with world-class developers. 
+                            We turn ideas into reality through expert development partnerships.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link">Twitter</a>
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">GitHub</a>
+                            <a href="#" class="social-link">Discord</a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Services</h4>
+                        <ul class="footer-links">
+                            <li><a href="#services">Developer Consultation</a></li>
+                            <li><a href="#services">Project Matching</a></li>
+                            <li><a href="#services">Live Chat Support</a></li>
+                            <li><a href="#services">Project Dashboard</a></li>
+                            <li><a href="#services">Quality Assurance</a></li>
+                            <li><a href="#services">Technical Reviews</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-heading">For Developers</h4>
+                        <ul class="footer-links">
+                            <li><a href="#developers">Join the Hub</a></li>
+                            <li><a href="#developers">Get Verified</a></li>
+                            <li><a href="#developers">Level Up Program</a></li>
+                            <li><a href="#developers">Community Forum</a></li>
+                            <li><a href="#developers">Developer Resources</a></li>
+                            <li><a href="#developers">Certification</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Support</h4>
+                        <ul class="footer-links">
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#hero5">FAQ</a></li>
+                            <li><a href="#help">Help Center</a></li>
+                            <li><a href="#documentation">Documentation</a></li>
+                            <li><a href="#tutorials">Tutorials</a></li>
+                            <li><a href="#status">System Status</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Company</h4>
+                        <ul class="footer-links">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#careers">Careers</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#press">Press Kit</a></li>
+                            <li><a href="#partners">Partners</a></li>
+                            <li><a href="#investors">Investors</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Legal</h4>
+                        <ul class="footer-links">
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                            <li><a href="#cookies">Cookie Policy</a></li>
+                            <li><a href="#security">Security</a></li>
+                            <li><a href="#compliance">Compliance</a></li>
+                            <li><a href="#gdpr">GDPR</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom-content">
+                        <p class="copyright">
+                            © 2024 DevNest. All rights reserved. Built with ❤️ by developers, for developers.
+                        </p>
+                        <div class="footer-bottom-links">
+                            <a href="#sitemap">Sitemap</a>
+                            <a href="#accessibility">Accessibility</a>
+                            <a href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
